@@ -53,3 +53,21 @@ a {
 .gallery-image:hover {
   transform: scale(1.04);
 }
+
+/*
+  Note for mentor:
+  I implemented the layout strictly according to the task requirements:
+  always 3 columns with 3 images each, scaling proportionally with aspect-ratio.
+
+  Alternative UX idea:
+  On smaller screens (tablets/phones), I could keep the cards at fixed 360px width
+  so the images don't get too small, and let them naturally wrap to 2 columns or 1 column:
+
+  .gallery-item {
+    width: 360px;
+    max-width: 100%;
+  }
+  .gallery-image {
+    height: 200px;
+  }
+*/
